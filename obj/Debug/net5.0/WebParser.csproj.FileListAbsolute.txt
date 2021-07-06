@@ -1,0 +1,16 @@
+C:\Users\rennd\OneDrive\Dokumente\Beruf\CS\WebParser\bin\Debug\net5.0\WebParser.exe
+C:\Users\rennd\OneDrive\Dokumente\Beruf\CS\WebParser\bin\Debug\net5.0\WebParser.deps.json
+C:\Users\rennd\OneDrive\Dokumente\Beruf\CS\WebParser\bin\Debug\net5.0\WebParser.runtimeconfig.json
+C:\Users\rennd\OneDrive\Dokumente\Beruf\CS\WebParser\bin\Debug\net5.0\WebParser.runtimeconfig.dev.json
+C:\Users\rennd\OneDrive\Dokumente\Beruf\CS\WebParser\bin\Debug\net5.0\WebParser.dll
+C:\Users\rennd\OneDrive\Dokumente\Beruf\CS\WebParser\bin\Debug\net5.0\ref\WebParser.dll
+C:\Users\rennd\OneDrive\Dokumente\Beruf\CS\WebParser\bin\Debug\net5.0\WebParser.pdb
+C:\Users\rennd\OneDrive\Dokumente\Beruf\CS\WebParser\obj\Debug\net5.0\WebParser.csproj.AssemblyReference.cache
+C:\Users\rennd\OneDrive\Dokumente\Beruf\CS\WebParser\obj\Debug\net5.0\WebParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rennd\OneDrive\Dokumente\Beruf\CS\WebParser\obj\Debug\net5.0\WebParser.AssemblyInfoInputs.cache
+C:\Users\rennd\OneDrive\Dokumente\Beruf\CS\WebParser\obj\Debug\net5.0\WebParser.AssemblyInfo.cs
+C:\Users\rennd\OneDrive\Dokumente\Beruf\CS\WebParser\obj\Debug\net5.0\WebParser.csproj.CoreCompileInputs.cache
+C:\Users\rennd\OneDrive\Dokumente\Beruf\CS\WebParser\obj\Debug\net5.0\WebParser.dll
+C:\Users\rennd\OneDrive\Dokumente\Beruf\CS\WebParser\obj\Debug\net5.0\ref\WebParser.dll
+C:\Users\rennd\OneDrive\Dokumente\Beruf\CS\WebParser\obj\Debug\net5.0\WebParser.pdb
+C:\Users\rennd\OneDrive\Dokumente\Beruf\CS\WebParser\obj\Debug\net5.0\WebParser.genruntimeconfig.cache
