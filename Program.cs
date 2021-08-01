@@ -41,7 +41,7 @@ namespace WebParser
             return url_1 + ActualDate()+ url_2 + tvStationName;
         }
 
-
+        // Create classes
         // Just a fake Progressbar
         public static void Dots()
         {   
@@ -72,7 +72,7 @@ namespace WebParser
         {
             DateTime heute = DateTime.Now;
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Check the daily TV-Programm {0}", heute);
+            Console.WriteLine("Check daily TV-Programm {0}", heute);
             Console.ForegroundColor = ConsoleColor.Gray;
         }
 
