@@ -11,7 +11,7 @@ namespace WebParser
     {
         private const ConsoleColor gray = ConsoleColor.Gray;
 
-        public static bool CheckTVProgram(string programmURL, string sender)
+        public static bool CheckTVProgram(string programmURL, string sender) //in Check Class
         {
             if(programmURL.Contains(sender))
             {
@@ -21,14 +21,14 @@ namespace WebParser
                 return false;
         }
 
-        private static void SenderAusgabe(string sender)
+        private static void SenderAusgabe(string sender) // class UI Dots or Progressbar
         {
             Console.WriteLine(sender);
             Dots();
             Console.WriteLine();
         }
 
-        private static string ActualDate()
+        private static string ActualDate() // in Constructor of TVProgramm (Class)
         {
             string neuesDatum = DateTime.Now.ToString("yyyy-MM-dd");
             return neuesDatum;
@@ -43,7 +43,7 @@ namespace WebParser
 
         // Create classes
         // Just a fake Progressbar
-        public static void Dots()
+        public static void Dots() // Class Progressbar
         {   
             for(int k = 0; k <= 100; k++)
             {
@@ -68,7 +68,7 @@ namespace WebParser
             Console.Write("]");
         }
 
-        static void Welcome()
+        static void Welcome() //Userinterface
         {
             DateTime heute = DateTime.Now;
             Console.ForegroundColor = ConsoleColor.Green;
@@ -88,12 +88,12 @@ namespace WebParser
             myFilms.Add("another movie");
           
 
-            string[] tvStationNamen = new string[13]
+            string[] tvStationNamen = new string[13] // Property -> TV programms (class)
             {
                 "ARD", "ZDF","SAT1","RTL","RTL2","PRO7","VOX","TELE5","K1","3SAT","ARTE","RTL-N","2NEO"
             };
 
-            Uri[] urls = new Uri[]
+            Uri[] urls = new Uri[] // Class Parse / Crawl
             {
                 new Uri(BuildURL("ARD")), 
                 new Uri(BuildURL("ZDF")), 
@@ -181,9 +181,9 @@ namespace WebParser
  
                 try
                 {
-                    using(System.Net.WebClient client = new System.Net.WebClient())
+                    using(System.Net.WebClient client = new System.Net.WebClient())  // Connection
                     {
-                        foreach(string myfilm in myFilms)
+                        foreach(string myfilm in myFilms) // Class Films / TV station as property
                         {
                             string htmlTVStation = client.DownloadString(url);
                             
@@ -197,14 +197,14 @@ namespace WebParser
                         
                     }
                 }
-                catch(System.Net.WebException)
+                catch(System.Net.WebException) // Class Connection
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("The Host {0} \nisn't available. Check your internet connection", url);
                     Console.ForegroundColor = gray;
                     Environment.Exit(1);
                 }
-                catch(Exception Ex)
+                catch(Exception Ex) //Class Connection
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Another problem occured.");
